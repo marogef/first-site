@@ -41,6 +41,18 @@
     -o-padding-end: 0px;
 }
 
+
+/*general styles*/
+
+body {
+    background-image: url("moviebg.png");
+    font: 10pt Arial;
+    width: 1300px;
+}
+
+
+/*content styles*/
+
 header {
     text-align: center;
     font-size: 24pt;
@@ -48,12 +60,6 @@ header {
     font-weight: bold;
     padding-bottom: 5px;
     padding-top: 15px;
-}
-
-body {
-    background-image: url("moviebg.png");
-    font: 10pt Arial;
-    width: 1300px;
 }
 
 .banner {
@@ -77,7 +83,7 @@ h1 {
     height: 30px;
 }
 
-#main {
+.main {
     width: 850px;
     margin: auto;
     padding: 2px;
@@ -117,12 +123,6 @@ span#topTitle {
     padding: 10px;
     float: left;
     margin-left: 10px;
-}
-
-.s {
-    text-indent: 41px;
-    padding: 1px;
-    line-height: 0px;
 }
 
 .rightPart {
@@ -176,7 +176,10 @@ span#topTitle {
     width: 300px;
 }
 
-#footer {
+
+/*footer*/
+
+footer {
     text-align: center;
     margin-top: 863px;
     background-color: #A2B964;
